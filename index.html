@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>网站后台管理</title>
+		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<style type="text/css">
+			@media (min-width: 768px) {  
+				#silder_sub{
+					margin-top: 51px;
+					width: 250px;
+					position: absolute;
+					z-index: 1;
+					height: 600px;
+				}
+				.mysearch{
+					margin: 0 15px;
+				}
+				.page_main{
+					margin-left: 255px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-static-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				    <span class="sr-only">Toggle navigation</span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand">网站后台管理</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right" style="margin-right: 25px;">
+				<li><a href="#"><span  class="badge" style="background-color: red;">100</span></a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-off"></span>注销</></li>
+			</ul>
+			<!-- 侧边功能栏 -->
+			<div class="navbar-default navbar-collapse" id="silder_sub">
+				<ul class="nav">
+<!-- 					<li>
+						<div class="input-group mysearch">
+							<input type="text" class="form-control" />
+							<span class="input-group-btn">
+								<button class="btn btn-default">
+									<span class="glyphicon glyphicon-search"></span>
+								</button>
+							</span>
+						</div>
+					</li> -->
+					<li>
+						<a  data-toggle="collapse" href="#sub1">功能菜单<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+						<ul id="sub1" class="nav collapse">
+							<li><a href="#"><span class="glyphicon glyphicon-info-sign"><span>&nbsp;系统信息</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-user"><span>&nbsp;管理员管理</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-tags"><span>&nbsp;日志信息</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-log-out"><span>&nbsp;推出</a></li>
+						</ul>
+					</li>
+					<li>
+						<a data-toggle="collapse" href="#sub2">栏目功能<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+						<ul id="sub2" class="nav collapse">
+							<li><a href="#"><span class="glyphicon glyphicon-info-sign"><span>&nbsp;系统信息</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-user"><span>&nbsp;管理员管理</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-tags"><span>&nbsp;日志信息</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-log-out"><span>&nbsp;推出</a></li>
+						</ul>
+					</li>
+					<li>
+						<a data-toggle="collapse" href="#sub3">产品功能<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+						<ul id="sub3" class="nav collapse">
+							<li><a href="#"><span class="glyphicon glyphicon-info-sign"><span>&nbsp;系统信息</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-user"><span>&nbsp;管理员管理</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-tags"><span>&nbsp;日志信息</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-log-out"><span>&nbsp;推出</a></li>
+						</ul>
+					</li>
+					<li>
+						<a data-toggle="collapse" href="#sub4">新闻功能<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+						<ul id="sub4" class="nav collapse">
+							<li><a href="#"><span class="glyphicon glyphicon-info-sign"><span>&nbsp;系统信息</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-user"><span>&nbsp;管理员管理</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-tags"><span>&nbsp;日志信息</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-log-out"><span>&nbsp;推出</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="page_main ">
+			<ol class="breadcrumb">
+				<li><a href="#">管理首页</a></li>
+				<li><a href="#">栏目</a></li>
+				<li><a href="#">添加栏目</a></li>
+			</ol>
+			<div class="panel panel-default">
+				<div class="panel-heading">栏目管理</div>
+				<div class="panel-body">
+				</div>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>姓名</th>
+							<th>性别</th>
+							<th>年龄</th>
+							<th>手机号</th>
+							<th>住址</th>
+							<th>身份证号</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>王尼玛</td>
+							<td>男</td>
+							<td>19</td>
+							<td>15273747474</td>
+							<td>河南山东</td>
+							<td>4324324324324243243</td>
+						</tr>
+						<tr>
+							<td>王尼玛</td>
+							<td>男</td>
+							<td>19</td>
+							<td>15273747474</td>
+							<td>河南山东</td>
+							<td>4324324324324243243</td>
+						</tr>
+						<tr>
+							<td>王尼玛</td>
+							<td>男</td>
+							<td>19</td>
+							<td>15273747474</td>
+							<td>河南山东</td>
+							<td>4324324324324243243</td>
+						</tr>
+						<tr>
+							<td>王尼玛</td>
+							<td>男</td>
+							<td>19</td>
+							<td>15273747474</td>
+							<td>河南山东</td>
+							<td>4324324324324243243</td>
+						</tr>
+						<tr>
+							<td>王尼玛</td>
+							<td>男</td>
+							<td>19</td>
+							<td>15273747474</td>
+							<td>河南山东</td>
+							<td>4324324324324243243</td>
+						</tr>
+						<tr>
+							<td>王尼玛</td>
+							<td>男</td>
+							<td>19</td>
+							<td>15273747474</td>
+							<td>河南山东</td>
+							<td>4324324324324243243</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+</html>
